@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body {
+  font-family: Karla;
+  font-size: 16px;
+  background-color: #F0F0F0;
+  margin: auto;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.container {
+  width: 760px;
+}
+
+/* section product */
+.product {
+  border: 0px solid black;
+  border-radius: 4px 4px 0 0;
+  padding: 20px 30px;
+  background-color: white;
+}
+
+.shadow {
+  box-shadow: 0 10px 40px -10px rgba(0,64,128,.2);
+  transition: box-shadow .3s;
+}
+
+.product > .keterangan {
+  font-weight: bold;
+  font-size: 18px;
+  color: yellowgreen;
+}
+
+.product > .judul {
+  color: #75cfb8;
+}
+
+.product > .detail {
+  color : gray;
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+}
+
+/* subscript */
+.subscript {
+  padding: 30px;
+  background-color: #2bc9c6;
+  border-radius: 0 0 0 4px;
+}
+
+.subscript > p {
+  color: white;
+}
+
+.subscript > .title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.subscript > .price {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.subscript > .price > span {
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.subscript > .caption {
+  margin-top: -15px;
+  margin-bottom: 35px;
+  font-size: 16px;
+}
+
+.btn-signup {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #c1e428;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 800;
+  border-radius: 4px;
+}
+
+.btn-signup:hover{
+  box-shadow: 0 10px 50px -10px rgb(180, 174, 173);
+  transition: box-shadow .3s;
+}
+
+/* description */
+.description {
+  padding: 20px 50px 30px 50px;
+  background-color: #4ABEBD;
+  color: white;
+  border-radius: 0 0 4px 0;
+}
+
+.description > .title {
+  font-size: 24px;
+  background-color: #4ABEBD;
+  font-weight: bolder;
+}
+
+.description > .caption {
+  font-size: 14px;
+}
